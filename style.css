@@ -1,0 +1,217 @@
+body{
+    font-family: 'Zen Dots', cursive;
+    font-size: 1.2rem;
+}
+@media only screen and (max-width:1200px){
+    #main{
+        background: url(./../background.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    }
+    .header-info1{
+        display: none;
+    }
+    #history{
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+    .card {
+		margin: 20px 0;
+	}
+    
+    .history1{
+        display: none;
+    }
+    #history{
+        height: 850px;
+        margin: 5px;
+    }
+    .text{
+        display: none;
+    }
+    #hall{
+        display: none;
+    }
+
+}
+#main{
+    background: url(./../background.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 1.9rem;
+    background: linear-gradient(to right,red,yellow);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+}
+.nav-item{
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: linear-gradient(to right,red,yellow);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+}
+
+.header-main{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.header-info{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(218, 188, 24);
+    text-shadow: 10px 10px 10px black;
+}
+.header-info1{
+    margin-top: 10%;
+    margin-left: 55%;
+    font-size: 3rem;
+    font-weight: 900;
+    color: red;
+    text-shadow: 10px 10px 10px black;
+}
+.section-title{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Anton', sans-serif;
+    color: blue;
+    background: linear-gradient(to right,red,yellow);
+}
+.section-title1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: 'Anton', sans-serif;
+    color: blue;
+    background: linear-gradient(to right,red,yellow);
+}
+.carousel-item img{
+    max-width: 100%;
+    max-height: 700px;
+}
+#membership{
+    background: linear-gradient(135deg, #23212f 5%, #9526a9 95%)
+}
+.carousel-item{
+    padding: 2% 7%;
+}
+.carousel-item h1{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: black;
+    text-shadow: 5px 5px 5px rgb(180, 161,161);
+}
+#history{
+    background: url(./../est2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container-fiuid{
+    position: relative;
+}
+.history1 img{
+    position: absolute;
+    top: 0%;
+    left: 55%;
+    height: 200px;
+    width: 200px;
+}
+.history1 p{
+    position: absolute;
+    top: 23%;
+    left: 32%;
+    font-size: 1.5rem;
+}.history2
+{
+    font-size: 1.5rem;
+    padding:10px ;
+}
+#hall{
+    height: 166vh;
+    background: linear-gradient(135deg, #23212f 5%, #9526a9 95%)
+}
+.c1{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 3px 63px -12px rgb(245, 5, 5);
+}
+.hall-image{
+    margin-top: 25px;
+    height: 300px ;
+    width: 300px;
+}
+.hall-text{
+    position: absolute;
+    font-weight: 900;
+    color: #f30d0d;
+    box-shadow:  0px 5px 63px 1px rgb(122, 113, 113);;
+    font-family: 'Anton', sans-serif;
+    top: 45%;
+    left: 6%;
+}
+.card {
+	box-shadow: 0px 3px 63px -12px rgb(245, 5, 5);
+    margin-bottom: 10px;
+	
+	border-radius: 10px;
+}
+.card-text{
+    color: #5a34fc;
+}
+.card-body {
+	padding: 7% 7%;
+}
+
+.membership-text {
+	color: #fa1919;
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 5% 0%;
+}
+.btn-block {
+	font-size: 1.5rem;
+}
+footer {
+    margin-top: 0px;
+	background: rgba(0, 0, 0, 0.815);
+	overflow-x: hidden;
+	padding: 14vmin 18vmin;
+  }
+  
+  footer p > span {
+	color: #5a34fc;
+  }
+  
+  footer input {
+	border: none !important;
+  }
+  
+  footer input::placeholder {
+	color: white !important;
+  }
+  
+  footer .input-group .input-group-text {
+	background: var(--bggradient);
+	border: none;
+  }
+  
+  footer .column i {
+	color: #5a34fc;
+  }
+  
+  /* It is Adjacent sibling combinator */
+  
+  footer .column i + i {
+	padding: 0 0.5em;
+  }
+ 
